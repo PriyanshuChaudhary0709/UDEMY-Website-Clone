@@ -593,6 +593,71 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Cards and Image*/
+
+/* Purple border for 1st card */
+.col-md-6 .card:nth-child(1) {
+    border: 2px solid purple; /* Add a purple border to the first card */
+}
+
+.card-container {
+    padding: 2rem 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 90px; /* Ensure full height for flex alignment */
+}
+
+.card h5 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem; /* Increase the font size for heading */
+}
+
+.card h5 img {
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.card p {
+    font-size: 1.2rem; /* Increase the font size for the paragraph text */
+    margin-bottom: 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* To align cards and image container */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+/* Custom height for the image container */
+.image-container img {
+    width: 100%; /* Full width */
+    height: auto;
+    max-height: 500px; /* Adjust the max height */
+    object-fit: cover; /* Ensure image scaling while keeping aspect ratio */
+}
+
+/* Align the content height */
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* styling course review section */
 .course-review-wrapper {
     background: #f7f9fa;
