@@ -25,11 +25,14 @@
     <!--NAVBAR STARTED-->
     <header class="main-header">
         <nav class="nav-header sm-font">
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+
             <button id="menu" class="side-menu-opener"><i class="fa-solid fa-bars"></i></button>
             <button class="side-menu-opener hide"><i class="fa-solid fa-bars"></i></button>
             <div class="logo">
                 <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="">
             </div>
+
             <div class="nav-item nav-dropdown categories">
                 <span>Categories</span>
                 <div class="dropdown-content left">
@@ -108,6 +111,15 @@
     <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active hero">
+                <img src="./assets/853c5a49-9b77-4eb8-a6b8-cf289d00a8d0.png" class="d-block w-100" alt="Hero Image 1">
+            <div class="hero-quote">
+                <h1 style="font-size: 35px;">
+                    Great savings for a bright future</h1>
+                <p class="p-font text-black">Courses designed to help you reach your goals start at just ₹549 — sale ends October 24.
+                </p>
+            </div>
+        </div>
+            <div class="carousel-item hero">
                     <img src="./assets/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg" class="d-block w-100" alt="Hero Image 1">
                 <div class="hero-quote">
                     <h1 style="font-size: 35px;">
@@ -127,10 +139,10 @@
             <!-- Add more carousel items as needed -->
         </div>
         <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-            <span><img src="./assets/318477.png" style="height: 40px; width: 40px;"></span>
+            <!-- <span><img src="./assets/318477.png" style="height: 40px; width: 40px;"></span> -->
         </a>
         <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-            <span><img src="./assets/318476.png" style="height: 40px; width: 40px;"></span>
+            <!-- <span><img src="./assets/318476.png" style="height: 40px; width: 40px;"></span> -->
 
         </a>
         
@@ -155,9 +167,10 @@
                 <li><a href="#" class="p-font b-700">Communication</a></li>
                 <li><a href="#" class="p-font b-700">Amazon AWS</a></li>
             </ul>
-
+        </section>
             <!-- Button Container -->
-            <div class="button-container" style="display: flex; gap: 1rem; margin-top: 1rem;">
+             <div class="container-fluid py-5" style="background-color: #f7f9fa;">
+            <div class="button-container container" style="display: flex; gap: 1rem; margin-top: 1rem;">
                 <!-- Web Development Button -->
                 <div class="button-wrapper">
                     <button class="btn oval-btn">
@@ -219,8 +232,8 @@
             </div>
 
             <!-- Udemy Courses Section -->
-            <section class="udemy-courses container my-5">
-                <div class="row">
+            <section class="container-fluid udemy-courses my-5">
+                <div class="row container mx-5">
 
                     <!-- Course 1 -->
                     <div class="col-md-3 mb-4">
@@ -228,7 +241,7 @@
                             <img class="card-img-top" src="assets/thumbnails/html-css-project.png"
                                 alt="HTML CSS Course">
                             <div class="card-body">
-                                <h5 class="card-title"><strong> The Web Developer Bootcamp 2024</strong></h5>
+                                <h5 class="card-title"><strong> The Web Developer Bootcamp 2024 - Online Certification Course</strong></h5>
                                 <p class="card-text">Ram</p>
                                 <p class="card-text font-weight-bold">$2.00</p>
                             </div>
@@ -308,7 +321,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <!-- End of Udemy Courses Section -->
 
             <!-- Trusted Brands Section -->
@@ -493,6 +506,21 @@
                     </div>
                 </section>
                 <!-- End of Course Review Section -->
+                <div class="container-fluid" style="background-color: #f7f9fa; ">
+                    <div class="row container" style="height: 700px; margin-left: 100px;">
+                        <div class="col-3" style="height: 600px;">
+                            <h1 style="font-size: 40px; font-weight: 700;margin-top: 50px; ">Top trends for the future of work</h1>
+                            <p class="fs-3 mt-5">GenAI and leadership are at <br>the core of today's skills-<br>based economy. Get the 2024 <br>Global Learning & Skills<br> Trends Report to learn more.</p>
+
+                        
+                            <button class="lg bg-white text-black my-5" style="height: 60px;width: 150px; font-size: 15px;font-weight: 700;">Get The Report-></button>
+                        </div>
+                        <!-- </div> -->
+                        <div class="col-7" style="height: 700px;">
+                           <img src="./assets/global.png" style="height: 600px;" >
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Top Categories Section -->
                 <section class="top-categories">
@@ -606,14 +634,42 @@
                         </div>
                     </div>
                 </section>
+                
+                    <div class="container-fluid" style="background-color: #f7f9fa; ">
+                        <div class="row container temp" style="height: 700px; display: flex; justify-content: center;">
+                            <div class="col-6" style="height: 600px;">
+                                <div style="margin-top: 50px;">
+                                <h1>Booz | Allen | Hamilton</h1>
+                                <spn  style="font-size: 30px; font-weight: 700;margin-top: 30px; ">Booz Allen Hamilton Unlocks Talent<br> Retention and Productivity Through <br>Upskilling</spn>
+                                <div style="display: flex;gap: 50px;">
+                                    <div><spn style="font-size: 40px; font-weight: 700;">93%</spn><br>
+                                        <p class="fs-3">retention rate among participating<br> employees</p>
+                                    <hr style="color: black;">
 
+                                    </div>
+                                    <div>
+                                        <spn style="font-size: 40px; font-weight: 700;">65%</spn><br>
+                                        <p class="fs-3">of learners noted a positive impact on <br>their productivity</p>
+                                    <hr style="color: black;">
+                                        
+                                    </div>
+
+                                </div>
+                                <button class="lg bg-black text-white my-5" style="height: 60px;width: 150px; font-size: 15px;font-weight: 700;">Read Full Story-></button>
+                            </div>
+                            </div>
+                            <div class="col-4" style="height: 700px;">
+                               <img src="./assets/UB_Case_Studies_Booz_Allen_image.png" style="height: 700px; width: 600px;" >
+                            </div>
+                        </div>
+                    </div>
 
                 <!--FOOTER STARTED-->
                 
 
                     <footer class="footer" style="width: 100%;">
-                        <div class="container-fluid">
-                            <div class="row">
+                        <div>
+                            <div class="row mx-5">
                                 <div class="col-lg-8 col-md-10 text-left">
                                     <p class="top-companies">
                                         Top companies choose <a href="#" class="udemy-link">Udemy Business</a> to build
@@ -643,7 +699,7 @@
                                         <li><a href="#">Contact us</a></li>
                                     </ul>
                                     <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg "
-                                        alt="Udemy Logo" class="udemy-logo">
+                                        alt="Udemy Logo" class="udemy-logo mx-5">
                                 </div>
                                 <div class="col-lg-3 col-md-6 text-left">
                                     <ul class="footer-links">

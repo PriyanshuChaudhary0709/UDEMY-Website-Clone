@@ -533,9 +533,10 @@ span:hover{
   margin-bottom: 1.6rem;
 }
 .udemy-courses {
-  margin: 3rem 0;
+  justify-content: flex-start;
   display: flex;
-  overflow: scroll;
+
+  /* overflow: scroll; */
 }
 .course-wrapper {
   width: 23rem;
@@ -697,7 +698,8 @@ span:hover{
 }
 .course-review-container {
   display: flex;
-  overflow: scroll;
+  justify-content: center;
+  /* overflow: scroll; */
 }
 .course-box {
   border: 1px solid #eee;
@@ -852,6 +854,20 @@ span:hover{
   margin-left: 4rem;
 }
 
+@media screen and (max-width: 760px) {
+  .temp {
+    flex-direction: column;
+  }
+  .temp .col-6 {
+    width: 100%;
+    margin-left: 0;
+    padding: 4rem;
+    text-align: center;
+  }
+  .temp .col-4 {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1340px) {
   .udemy-instructor {
     flex-direction: column;
