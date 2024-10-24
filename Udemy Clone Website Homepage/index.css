@@ -13,7 +13,20 @@
   --dropdown-box-shadow: 0 0 0 1px #d1d7dc, 0 2px 4px rgba(0, 0, 0, 0.08),
     0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
+.trend{
+  margin: auto;
+}
+.trend h2{
+font-size: 32px;
+font-weight: 700;
+}
+.trend b{
+  font-size: 20px;
+  font-weight: 600;
+}
+.trend p{
+  font-size: 15px;
+}
 /* reset default browser styles */
 html {
   font-size: 10px;
